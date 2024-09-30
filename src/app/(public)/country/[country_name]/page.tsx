@@ -28,6 +28,11 @@ const Countries: CountryDetails[] = [
     name: "Indonesia",
     capital: "Jakarta",
     population: 273523615
+  },
+  {
+    name: "UnitedStates",
+    capital: "Washington D.C.",
+    population: 331002651
   }
 ];
 

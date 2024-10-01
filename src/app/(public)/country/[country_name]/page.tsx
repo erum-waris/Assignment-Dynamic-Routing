@@ -46,13 +46,13 @@ const Countries: CountryDetails[] = [
           return <h1>Country not found</h1>;
         }
         return (
-          <div >
+          <div className="bg-slate-300 border-3 p-5 flex flex-col items-center" >
 
-            <h1 className="text-5xl font-bold">Country Information</h1>
+            <h1 className="text-5xl font-bold m-3">Country Information</h1>
          
-            <h2 className="text-2xl font-bold">Country Name: {favouriteCountry.name}</h2>
+            <h2 className="text-2xl font-bold m-2">Country Name: {favouriteCountry.name}</h2>
 
-            <h2 className="text-2xl font-bold">Country Capital: {favouriteCountry.capital}</h2>
+            <h2 className="text-2xl font-bold m-3">Country Capital: {favouriteCountry.capital}</h2>
 
             <h2 className="text-2xl font-bold">Country Population: {favouriteCountry.population}</h2>
           </div>
